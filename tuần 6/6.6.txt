@@ -1,0 +1,40 @@
+ import java.util.Scanner;
+ class SortArray{
+     public static int[] readArray(Scanner sc){
+        int n = sc.nextInt();
+        int[] array = new int[n];
+        
+        for (int i=0; i<n; i++){
+            array[i] = sc.nextInt();
+        }
+        
+        return array;
+    }
+    public static int[] sortArray(int[] array){
+        int temp;
+        for (int i=0; i<array.length-1; i++){
+            for (int j=1+i; j<array.length; j++){
+                if (array[i] > array[j]) {
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+                    
+            }
+        }
+        return array;
+    }
+    
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        int[] a = readArray(sc);
+        
+        int[] K = sortArray(a);
+        
+        for (int i : K){
+            System.out.print(i + " ");
+        }
+    } 
+ }

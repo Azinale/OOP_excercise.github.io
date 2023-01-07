@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Cong2Mang {
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){
+        int n = sc.nextInt();
+        int[] a = inputArray(n);
+        int[] b = inputArray(n);
+        int[] c = sumArray(a, b);
+        printArray(c);
+        sc.close();
+
+    }
+    public static int[] inputArray(int n){
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++){
+            array[i] = sc.nextInt();
+        }
+        return array;
+    }
+    public static int[] sumArray(int[] a, int[] b){
+        int[] c = new int[a.length];
+        for(int i = 0; i < c.length; i++){
+            c[i] = a[i] + b[i];
+        }
+        return c;
+    }
+    public static void printArray(int[] array){
+        for(int i = 0; i < array.length; i++){
+            System.out.print(array[i] + " ");
+        }
+    }
+}

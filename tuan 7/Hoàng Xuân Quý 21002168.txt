@@ -1,0 +1,15 @@
+sắp xếp đơn giản:
+số phép so sánh 6+5+...+1=21 
+số phép gán 14
+
+Sắp xếp chọn
+số phép so sánh 21
+số phép gán 14
+
+sắp xếp chèn
+số phép so sánh 21
+số phép gán 16
+
+sắp xếp nổi bọt 
+số phép so sánh 21
+số phép gán 21

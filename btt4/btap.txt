@@ -1,0 +1,16 @@
+Bai 1:
+Câu lệnh sau sẽ tạo ra một mảng có số phần tử là âm 17
+nhưng do một mảng không thể có số phần tử là âm nên chương trình sẽ báo lỗi: NegativeArraySizeException
+
+Bài 2: 
+Câu lệnh này cũng khiến chương trình lỗi tương tự như bài 1, số lượng phần tử được khai báo lớn vượt quá số lượng cho phép nên gây ra lỗi.
+
+Bài 3: 
+Khối lệnh sau sai vì khác với một biến, một array chưa khai báo số phần tử thì sẽ là rỗng và không nhận giá trị.
+
+Bài 4:
+Khối lệnh sẽ in ra màn hình là false, vì ta không thể in ra hai mảng trùng có giá trị bằng nhau với cú pháp như thế.
+
+Bài 5:
+Vòng lặp sau thực hiện lấy giá trị a[j] của mảng b và cộng thêm 1 đơn vị.
+
